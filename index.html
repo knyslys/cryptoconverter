@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How much money?!</title>
+    <script defer type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form class="form-container">
+        <div class="input-container">
+          <input type="text" class="coinInput" />
+          <!-- <span class="firstMarketcap">4343</span> -->
+          <select id="firstCoin">
+            <!-- <option value="bitcoin">Bitcoin</option> -->
+          </select>
+        </div>
+        <h2>Convert to</h2>
+        <!-- <span class="secondMarketcap">4343</span> -->
+        <select id="secondCoin">
+          <!-- <option value="bitcoin">Bitcoin</option> -->
+        </select>
+        <a id="calculate">Calculate</a>
+      </form>
+
+      <div class="result-container hidden">
+        <div class="coin">
+          <!-- <img src="" alt="coin" class="coinIcon" loading="lazy" /> -->
+          <h2 class="howMany"></h2>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

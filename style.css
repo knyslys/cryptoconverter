@@ -1,0 +1,71 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+} */
+
+.container {
+  max-width: 80vw;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background-color: bisque;
+  padding: 5rem;
+  border-radius: 10px;
+}
+
+#secondCoin {
+  border-radius: 10px;
+  padding: 1rem 2.5rem;
+  border: none;
+  text-align: center;
+  font-size: 2rem;
+  background-color: white;
+}
+
+#firstCoin {
+  border-radius: 10px;
+  padding: 1rem 2.5rem;
+  border: none;
+  text-align: center;
+  font-size: 2rem;
+  background-color: white;
+}
+
+.coinInput {
+  border-radius: 10px;
+  padding: 1rem 2.5rem;
+  border: none;
+  text-align: center;
+  font-size: 2rem;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#calculate:hover {
+  cursor: pointer;
+}
